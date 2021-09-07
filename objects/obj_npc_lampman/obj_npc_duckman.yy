@@ -1,0 +1,42 @@
+{
+  "spriteId": {
+    "name": "spr_duckman_down",
+    "path": "sprites/spr_duckman_down/spr_duckman_down.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "obj_par_npc",
+    "path": "objects/obj_par_npc/obj_par_npc.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"textToShow","path":"objects/obj_par_interactable/obj_par_interactable.yy",},"objectId":{"name":"obj_par_interactable","path":"objects/obj_par_interactable/obj_par_interactable.yy",},"value":"[\"Howdy partner, where'd you come from?\"]","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"secondTextToShow","path":"objects/obj_par_npc/obj_par_npc.yy",},"objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"value":"\"If you're lost, the city is just over to the East. You can't miss it.\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
+  "parent": {
+    "name": "DuckMan",
+    "path": "folders/Objects/NPC/DuckMan.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "obj_npc_duckman",
+  "tags": [],
+  "resourceType": "GMObject",
+}
